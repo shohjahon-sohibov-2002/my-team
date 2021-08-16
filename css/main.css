@@ -497,6 +497,17 @@ img {
   padding-left: 33px;
 }
 
+.header__btn:hover {
+  transition: 0.3s ease;
+  background-color: #fff;
+  color: #002529;
+}
+
+.header__btn:active {
+  background-color: #333;
+  color: #fff;
+}
+
 @media only screen and (max-width: 768px) {
   .site__header {
     padding-top: 64px;
@@ -949,6 +960,16 @@ img {
   margin-right: 100px;
 }
 
+.bg-red__btn:hover {
+  transition: 0.3s ease;
+  background-color: #012F34;
+  color: #fff;
+}
+
+.bg-red__btn:active {
+  background-color: #000;
+}
+
 @media only screen and (max-width: 890PX) {
   .bg-red__heading {
     font-size: 32px;
@@ -1006,6 +1027,15 @@ img {
   margin-right: 40px;
 }
 
+.left__item--a:hover {
+  transition: 0.3s ease;
+  color: #F67E7E;
+}
+
+.left__item--a:active {
+  color: grey;
+}
+
 .center__list {
   padding: 0;
   margin: 0;
@@ -1059,6 +1089,15 @@ img {
   width: 24px;
   height: 24px;
   display: block;
+}
+
+.right__img:hover {
+  transition: 0.3s ease;
+  opacity: 0.7;
+}
+
+.right__img:active {
+  opacity: 0.5;
 }
 
 .right__text {

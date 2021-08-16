@@ -84,6 +84,17 @@
   padding-left: 33px;
 }
 
+.header__btn:hover {
+  transition: .3s ease;
+  background-color: #fff;
+  color: #002529;
+}
+
+.header__btn:active {
+  background-color: #333;
+  color: #fff;
+}
+
 @include breakpoint-down (768px) {
 
   .site__header {

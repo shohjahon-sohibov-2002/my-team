@@ -43,6 +43,16 @@
   margin-right: 100px;
 }
 
+.bg-red__btn:hover {
+  transition: .3s ease;
+background-color: #012F34;
+color: #fff;
+} 
+
+.bg-red__btn:active {
+  background-color: #000;
+}
+
 // RESPONSIVE
 
 @include breakpoint-down (890PX) {
